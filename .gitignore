@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# Model files
+*.gguf
+*.bin
+*.pth
+Meta-Llama-3-8B-Instruct.Q4_0.gguf
+
+# Log files
+*.log
+*.out
+sree_assistant.logs
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# dotenv environment files
+.env
+.env.*
+memory.json
+# UI state or user memory
+session_history.json
+sree_memory.json
+
+# Jupyter
+*.ipynb_checkpoints/
+
+# Cache
+*.cache/
+.cache/
+__pycache__/
+*.pkl
